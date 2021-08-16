@@ -17,7 +17,7 @@ namespace VoiceVolumeOverride
     {
         public override string Name => "VoiceVolumeOverride";
         public override string Author => "runtime";
-        public override string Version => "1.0.0";
+        public override string Version => "1.0.1";
         public override string Link => "https://github.com/zkxs/VoiceVolumeOverride";
 
         private static readonly string VOICE_MULTIPLIER_SETTING_NAME = "Settings.Mod.VoiceVolumeOverride.PostMultiplier";
@@ -120,7 +120,7 @@ namespace VoiceVolumeOverride
             }
 
             // add a header
-            ui.Text("Mod: VoiceVolumeOverride", alignment: new Alignment?());
+            ui.Text("<b>Mod: VoiceVolumeOverride</b>", alignment: new Alignment?());
 
             // set up the float field
             Sync<float> fieldValue = ui.HorizontalElementWithLabel("Microphone Volume Multiplier", 0.7f, () => ui.FloatField(0f, 100f, format: "F2")).ParsedValue;
