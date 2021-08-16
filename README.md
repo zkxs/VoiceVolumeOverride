@@ -12,6 +12,8 @@ This will no longer be needed once https://github.com/Neos-Metaverse/NeosPublic/
 ## Usage
 Go to your settings and scroll all the way to the bottom of the right pane. You'll find a new "Microphone Volume Multiplier" there you can adjust. The setting will save automatically and persist across Neos launches.
 
+![settings menu](screenshots/settings.png)
+
 ## FAQ
 
 ### Doesn't the built in voice normalization do this automatically?
