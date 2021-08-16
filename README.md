@@ -21,6 +21,3 @@ Yes, but sometimes you don't want normalization. For example, if you want to be 
 
 ### Why is this needed?
 Some microphone hardware is simply quieter than it needs to be. You can't turn your microphone up higher than 100% in Windows/SteamVR, so software amplification is needed.
-
-### Why NeosModLoader over some other mod loader?
-Because this does not violate the [Neos Guidelines](https://docs.google.com/document/d/1mqdbIvbj1b2LeFhNzfAASeTpRZk6vmbXISYLdTXTVR4/edit#).
