@@ -21,3 +21,6 @@ Yes, but sometimes you don't want normalization. For example, if you want to be 
 
 ### Why is this needed?
 Some microphone hardware is simply quieter than it needs to be. You can't turn your microphone up higher than 100% in Windows/SteamVR, so software amplification is needed.
+
+### Is this against guidelines?
+Maybe. [Read more](https://github.com/zkxs/NeosModLoader/blob/master/doc/neos_guidelines.md).
