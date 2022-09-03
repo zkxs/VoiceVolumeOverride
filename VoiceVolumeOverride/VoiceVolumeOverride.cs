@@ -15,9 +15,10 @@ namespace VoiceVolumeOverride
 {
     public class VoiceVolumeOverride : NeosMod
     {
+        internal const string VERSION = "1.1.0";
         public override string Name => "VoiceVolumeOverride";
         public override string Author => "runtime";
-        public override string Version => "1.0.1";
+        public override string Version => VERSION;
         public override string Link => "https://github.com/zkxs/VoiceVolumeOverride";
 
         private static readonly string VOICE_MULTIPLIER_SETTING_NAME = "Settings.Mod.VoiceVolumeOverride.PostMultiplier";
