@@ -24,10 +24,10 @@ namespace VoiceVolumeOverride
         private static readonly string VOICE_MULTIPLIER_SETTING_NAME = "Settings.Mod.VoiceVolumeOverride.PostMultiplier";
         private static readonly string UIBUILDER_FIELD_NAME = "ui";
 
-        private static LocalModeVariableProxy<float> _volumeMultiplier;
-        private static MethodInfo _eventHandler;
-        private static MethodInfo _amplifySamples;
-        private static MethodInfo _attachSlider;
+        private static LocalModeVariableProxy<float>? _volumeMultiplier;
+        private static MethodInfo? _eventHandler;
+        private static MethodInfo? _amplifySamples;
+        private static MethodInfo? _attachSlider;
 
         public override void OnEngineInit()
         {
@@ -68,7 +68,7 @@ namespace VoiceVolumeOverride
             List<CodeInstruction> codes = new List<CodeInstruction>(instructions);
 
             // find type of local variable 0. This should be some weird generated SettingsDialog closure
-            Type localVariable0Type = null;
+            Type? localVariable0Type = null;
             for (int idx = 0; idx < codes.Count - 1; idx++)
             {
                 if (OpCodes.Stloc_0.Equals(codes[idx + 1].opcode) && OpCodes.Newobj.Equals(codes[idx].opcode))
@@ -118,6 +118,7 @@ namespace VoiceVolumeOverride
             if (_volumeMultiplier == null)
             {
                 Error("Volume multiplier setting hasn't been configured yet, and it should have been. The mod is broken now.");
+                return;
             }
 
             // add a header
