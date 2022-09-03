@@ -26,9 +26,6 @@
       <HintPath>$(NeosPath)nml_libs\0Harmony.dll</HintPath>
       <HintPath Condition="Exists('$(NeosPath)0Harmony.dll')">$(NeosPath)0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="BaseX">
-      <HintPath>$(NeosPath)Neos_Data\Managed\BaseX.dll</HintPath>
-    </Reference>
     <Reference Include="CodeX">
       <HintPath>$(NeosPath)Neos_Data\Managed\CodeX.dll</HintPath>
     </Reference>
