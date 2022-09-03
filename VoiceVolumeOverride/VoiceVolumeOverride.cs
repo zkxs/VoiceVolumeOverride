@@ -1,4 +1,4 @@
-﻿using BaseX;
+using BaseX;
 using CodeX;
 using FrooxEngine;
 using FrooxEngine.UIX;
