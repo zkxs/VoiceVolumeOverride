@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("VoiceVolumeOverride")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Lets you adjust your microphone volume in-game")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Runtime Evil Inc.")]
 [assembly: AssemblyProduct("VoiceVolumeOverride")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
